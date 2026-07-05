@@ -1,0 +1,6 @@
+id,action,entityName,entityId,description,createdAt,userId
+6,CREATE,Employee,1,Created employee record EMP001.,2026-07-01 12:48:01.625,6
+7,UPDATE,Department,2,Updated Information Technology department details.,2026-07-01 12:48:01.625,7
+8,APPROVE,LeaveRequest,1,Approved Casual Leave request for Employee 1.,2026-07-01 12:48:01.625,8
+9,ASSIGN_TASK,Task,3,"Assigned ""Prepare Monthly Sales Report"" to Employee 4.",2026-07-01 12:48:01.625,9
+10,LOGIN,Users,1,User logged into the Employee Management System.,2026-07-01 12:48:01.625,10

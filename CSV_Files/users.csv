@@ -1,0 +1,6 @@
+id,firstName,lastName,email,password,phone,isActive,lastLogin,roleId,createdAt,updatedAt
+6,Sai,Charan,sai.charan@example.com,password123,9876543210,t,2026-07-01 12:41:38.287,3,2026-07-01 12:41:38.287,2026-07-01 12:41:38.287
+7,Rahul,Sharma,rahul.sharma@example.com,password123,9876543211,t,2026-07-01 12:41:38.287,4,2026-07-01 12:41:38.287,2026-07-01 12:41:38.287
+8,Priya,Reddy,priya.reddy@example.com,password123,9876543212,t,,5,2026-07-01 12:41:38.287,2026-07-01 12:41:38.287
+9,Anjali,Verma,anjali.verma@example.com,password123,9876543213,f,,6,2026-07-01 12:41:38.287,2026-07-01 12:41:38.287
+10,Kiran,Kumar,kiran.kumar@example.com,password123,9876543214,t,2026-07-01 12:41:38.287,5,2026-07-01 12:41:38.287,2026-07-01 12:41:38.287

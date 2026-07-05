@@ -1,0 +1,6 @@
+id,employeeCode,firstName,lastName,email,phone,gender,dateOfBirth,hireDate,designation,salary,employmentStatus,createdAt,departmentId,managerId
+1,EMP001,Sai,Charan,sai.charan@company.com,9876543210,Male,2001-05-15 00:00:00,2025-01-10 00:00:00,Software Engineer,60000.00,ACTIVE,2026-07-01 12:44:17.419,2,
+2,EMP002,Rahul,Sharma,rahul.sharma@company.com,9876543211,Male,1998-09-20 00:00:00,2023-03-15 00:00:00,Engineering Manager,120000.00,ACTIVE,2026-07-01 12:44:17.419,2,
+3,EMP003,Priya,Reddy,priya.reddy@company.com,9876543212,Female,1999-11-08 00:00:00,2024-06-01 00:00:00,HR Executive,50000.00,ACTIVE,2026-07-01 12:44:17.419,1,
+4,EMP004,Kiran,Kumar,kiran.kumar@company.com,9876543213,Male,1997-02-18 00:00:00,2022-08-12 00:00:00,Sales Executive,55000.00,ACTIVE,2026-07-01 12:44:17.419,4,2
+5,EMP005,Anjali,Verma,anjali.verma@company.com,9876543214,Female,2000-12-25 00:00:00,2025-02-20 00:00:00,Accountant,65000.00,ACTIVE,2026-07-01 12:44:17.419,3,2

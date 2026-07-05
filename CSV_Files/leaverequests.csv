@@ -1,0 +1,6 @@
+id,leaveType,startDate,endDate,reason,status,createdAt,employeeId,approvedById
+1,Casual Leave,2026-07-10 00:00:00,2026-07-11 00:00:00,Family function,APPROVED,2026-07-01 12:45:39.239,1,2
+2,Sick Leave,2026-07-15 00:00:00,2026-07-16 00:00:00,High fever,APPROVED,2026-07-01 12:45:39.239,3,2
+3,Earned Leave,2026-08-01 00:00:00,2026-08-05 00:00:00,Vacation with family,PENDING,2026-07-01 12:45:39.239,4,
+4,Work From Home,2026-07-20 00:00:00,2026-07-20 00:00:00,Internet maintenance at home,REJECTED,2026-07-01 12:45:39.239,5,2
+5,Casual Leave,2026-08-12 00:00:00,2026-08-13 00:00:00,Personal work,PENDING,2026-07-01 12:45:39.239,1,

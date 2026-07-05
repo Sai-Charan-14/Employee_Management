@@ -1,0 +1,6 @@
+id,title,description,priority,status,dueDate,createdAt,updatedAt,assignedToId,assignedById
+1,Develop Employee Login API,Implement JWT authentication and login endpoint.,HIGH,IN_PROGRESS,2026-07-10 00:00:00,2026-07-01 12:47:06.324,2026-07-01 12:47:06.324,1,2
+2,Design HR Dashboard,Create dashboard UI mockups for the HR module.,MEDIUM,PENDING,2026-07-15 00:00:00,2026-07-01 12:47:06.324,2026-07-01 12:47:06.324,3,2
+3,Prepare Monthly Sales Report,Generate and submit the monthly sales report.,LOW,COMPLETED,2026-07-05 00:00:00,2026-07-01 12:47:06.324,2026-07-01 12:47:06.324,4,2
+4,Database Backup,Take a full backup of the production database.,HIGH,PENDING,2026-07-08 00:00:00,2026-07-01 12:47:06.324,2026-07-01 12:47:06.324,5,2
+5,Code Review,Review the employee management backend pull request.,MEDIUM,IN_PROGRESS,2026-07-12 00:00:00,2026-07-01 12:47:06.324,2026-07-01 12:47:06.324,1,2

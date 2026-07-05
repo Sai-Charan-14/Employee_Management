@@ -1,0 +1,6 @@
+id,leaveName,description,maxDaysPerYear,createdAt
+1,Casual Leave,Leave for personal work or emergencies.,12,2026-07-01 12:45:19.644
+2,Sick Leave,Leave taken due to illness or medical reasons.,10,2026-07-01 12:45:19.644
+3,Earned Leave,Paid leave earned based on length of service.,18,2026-07-01 12:45:19.644
+4,Maternity Leave,Leave granted to female employees during childbirth.,180,2026-07-01 12:45:19.644
+5,Work From Home,Employees are allowed to work remotely with approval.,30,2026-07-01 12:45:19.644

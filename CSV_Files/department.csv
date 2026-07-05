@@ -1,0 +1,6 @@
+id,departmentName,departmentCode,description,createdAt,updatedAt
+1,Human Resources,HR001,"Handles employee recruitment, onboarding, payroll, and employee relations.",2026-07-01 12:42:40.364,2026-07-01 12:42:40.364
+2,Information Technology,IT001,"Responsible for software development, infrastructure, and technical support.",2026-07-01 12:42:40.364,2026-07-01 12:42:40.364
+3,Finance,FIN001,"Manages budgeting, accounting, financial planning, and reporting.",2026-07-01 12:42:40.364,2026-07-01 12:42:40.364
+4,Sales,SAL001,"Responsible for customer acquisition, sales, and revenue generation.",2026-07-01 12:42:40.364,2026-07-01 12:42:40.364
+5,Marketing,MKT001,"Handles branding, advertising, digital marketing, and market research.",2026-07-01 12:42:40.364,2026-07-01 12:42:40.364
