@@ -1,13 +1,9 @@
 pipeline {
     agent any
 
-    tools {
-        nodejs 'NodeJS-22'
-    }
-
     stages {
 
-        stage('Verify NodeJS') {
+        stage('Verify Node') {
             steps {
                 sh 'node -v'
                 sh 'npm -v'
@@ -29,11 +25,11 @@ pipeline {
 
     post {
         success {
-            echo 'CI Pipeline Completed Successfully!'
+            echo '🎉 CI Pipeline Completed Successfully!'
         }
 
         failure {
-            echo 'CI Pipeline Failed!'
+            echo '❌ CI Pipeline Failed!'
         }
 
         always {
