@@ -7,29 +7,22 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
+        stage('Verify NodeJS') {
             steps {
-                git branch: 'main',
-                    url: 'https://github.com/Sai-Charan-14/Employee_Management.git'
-            }
-        }
-
-        stage('Verify Node') {
-            steps {
-                bat 'node -v'
-                bat 'npm -v'
+                sh 'node -v'
+                sh 'npm -v'
             }
         }
 
         stage('Install Dependencies') {
             steps {
-                bat 'npm install'
+                sh 'npm install'
             }
         }
 
         stage('Run Tests') {
             steps {
-                bat 'npm test'
+                sh 'npm test'
             }
         }
     }
@@ -41,6 +34,10 @@ pipeline {
 
         failure {
             echo 'CI Pipeline Failed!'
+        }
+
+        always {
+            echo 'Pipeline execution finished.'
         }
     }
 }
