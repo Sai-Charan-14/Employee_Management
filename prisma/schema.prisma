@@ -16,25 +16,21 @@ model Roles {
 }
 
 model Users {
-  id         Int      @id @default(autoincrement())
+  id         Int        @id @default(autoincrement())
   firstName  String
   lastName   String
-  email      String   @unique
+  email      String     @unique
   password   String
   phone      String?
-  isActive   Boolean  @default(true)
+  isActive   Boolean    @default(true)
   lastLogin  DateTime?
   roleId     Int
-
-  employeeId Int? @unique
-  
-  createdAt  DateTime @default(now())
-  updatedAt  DateTime @updatedAt
-
-  role       Roles    @relation(fields: [roleId], references: [id])
-  employee Employee? @relation(fields: [employeeId], references: [id])
-
+  createdAt  DateTime   @default(now())
+  updatedAt  DateTime   @updatedAt
+  employeeId Int?       @unique
   auditLogs  AuditLog[]
+  employee   Employee?  @relation(fields: [employeeId], references: [id])
+  role       Roles      @relation(fields: [roleId], references: [id])
 }
 
 model Department {
@@ -72,7 +68,7 @@ model Employee {
   leaveRequests    LeaveRequest[]   @relation("EmployeeLeave")
   createdTasks     Task[]           @relation("AssignedBy")
   assignedTasks    Task[]           @relation("AssignedTo")
-  user Users?
+  user             Users?
 }
 
 model Attendance {

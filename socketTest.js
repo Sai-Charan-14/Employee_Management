@@ -8,7 +8,7 @@ socket.on("connect", () => {
   console.log("Sending register event...");
 
   socket.emit("register", {
-    id: 5,
+    id: 1,
     role: "ADMIN",
   });
 });

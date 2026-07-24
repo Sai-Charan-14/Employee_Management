@@ -27,14 +27,12 @@ pipeline {
             }
         }
 
-        // -------- NEW STAGE --------
         stage('Build Docker Image') {
             steps {
                 sh 'docker build -t $IMAGE_NAME .'
             }
         }
 
-        // -------- NEW STAGE --------
         stage('Stop Old Container') {
             steps {
                 sh '''
@@ -44,7 +42,6 @@ pipeline {
             }
         }
 
-        // -------- NEW STAGE --------
         stage('Deploy New Container') {
             steps {
                 sh '''
