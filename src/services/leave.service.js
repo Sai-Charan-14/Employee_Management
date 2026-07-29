@@ -1,5 +1,6 @@
 const prisma = require("../config/prisma");
 const { getIO, connectedUsers } = require("../socket/socket");
+const { sendMessageToQueue } = require("./sqs.service");
 
 const applyLeave = async (leaveData, loggedInUser) => {
   const {
@@ -99,6 +100,17 @@ const leaveRequest = await prisma.leaveRequest.create({
     reason,
     employeeId,
   },
+});
+
+await sendMessageToQueue({
+    event: "LEAVE_APPLIED",
+    leaveRequestId: leaveRequest.id,
+    employeeId: leaveRequest.employeeId,
+    leaveType: leaveRequest.leaveType,
+    startDate: leaveRequest.startDate,
+    endDate: leaveRequest.endDate,
+    reason: leaveRequest.reason,
+    status: leaveRequest.status,
 });
 
 // Send notification to all connected clients
